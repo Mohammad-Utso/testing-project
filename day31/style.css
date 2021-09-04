@@ -1,0 +1,451 @@
+body,h1,h2,h3,h4,h5,h6{
+    font-family: 'Work Sans', sans-serif;
+}
+
+img{
+	max-width: 100%;
+}
+
+/* Header */
+
+.my-header .navbar-brand{
+font-size: 25px;
+font-weight: bold;
+}
+.my-header .navbar-brand {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.my-header span {
+	color: #fff;
+	background: #6278df;
+	font-size: 29px;
+	display: inline-block;
+	height: 42px;
+	width: 37px;
+	text-align: center;
+	border-radius: 10px;
+    position: relative;
+    top: 2px;
+}
+/* Slider section */
+
+.slider-section{
+    background: url(img/mbr-10.jpg) no-repeat center center;
+    padding: 150px 0;
+	position: relative;
+    z-index: 1;
+}
+.slider-section::after{
+	content: "";
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: rgba(0, 0, 0, 0.37);
+    z-index: -1;
+}
+	
+
+
+.jon-menu .nav-link{
+    padding-left: 20px !important;
+	color:#000 !important;
+}
+
+
+.slider-caption h4 {
+	font-weight: 300;
+	color: #ffffffff;
+}
+.slider-section h2 {
+	padding-top: 25px;
+	line-height: 1.4;
+	font-weight: 500;
+	font-size: 45px;
+	margin-bottom: 50px;
+}
+
+.slider-caption .form-control {
+	padding: 16px 20px;
+}
+.slider-caption .btn {
+	padding: 10px;
+	font-size: 28px;
+	font-weight: 600;
+	background: #31ec02 !important;
+}
+
+
+
+
+/* Number counter section css */
+
+.h2 {
+	font-size: 53px;
+	font-weight: 500;
+}
+
+.ghola {
+	margin-top: 16px;
+	font-size: 20px;
+}
+
+
+/* About Css */
+
+.About-section{
+	background: #f7f0ff;
+}
+
+.about-text-left h1{
+	font-size: 36px;
+	line-height: 100px;
+	margin-top: 80px;
+	font-weight: 500;
+}
+
+.about-text-left .lead{
+	line-height: 35px;
+	font-size: 25px;
+	font-weight: 400;
+}
+
+/* Feature Section */
+
+
+.feature-item{
+	height: 300px;
+	box-shadow: 4px 5px 30px 0 rgba(64, 87, 191, 0.2);
+}
+
+.left-img-sec img{
+	
+	height: 100%;
+	width: auto !important;
+    max-width: inherit;
+	margin-left: -80%;
+	position: relative;
+}
+
+
+.left-img-sec .utso {
+	height: 100%;
+	width: auto !important;
+	max-width: inherit;
+	margin-left: -32%;
+	position: relative;
+}
+
+.left-img-sec .utso1 {
+	height: 100%;
+	width: auto !important;
+	max-width: inherit;
+	margin-left: -2%;
+	position: relative;
+}
+
+.left-img-sec .utso2 {
+	height: 100%;
+	width: auto !important;
+	max-width: inherit;
+	margin-left: -73%;
+	position: relative;
+}
+
+.left-img-sec .utso3 {
+	height: 100%;
+	width: auto !important;
+	max-width: inherit;
+	margin-left: -54%;
+	position: relative;
+} 
+
+.left-img-sec .utso4 {
+	height: 100%;
+	width: auto !important;
+	max-width: inherit;
+	margin-left: -63%;
+	position: relative;
+}
+
+.left-img-sec{
+	overflow: hidden;
+	width: 40%;
+	border-radius: 5px 0 0 5px;
+}
+
+
+.right-text-sec{
+	width: 60%;
+	padding: 25px;
+}
+
+
+
+/*Portfolio Css */
+
+
+.portfolio-item{}
+.portfolio-item a{
+	position: relative;
+    display: block;
+
+
+}
+
+.portfolio-item a::after{
+	content: "";
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+background-color: rgba(98, 120, 223,0.7);
+opacity:0;
+visibility: hidden;
+
+transition: .4s;
+
+
+}
+
+.portfolio-item:hover a::after{
+	opacity: 1;
+    visibility: visible;
+
+}
+
+
+
+
+/* Pricing-section */
+.col h1 {
+	margin-top: 10px;
+	margin-bottom: 30px;
+	font-weight: 500;
+}
+
+.col .lead {
+	font-weight: 300;
+	font-size: 1.6em;
+	margin-bottom: 75px;
+}
+
+.pricing-table-section{
+	background-color: #f7f9ff;
+
+}
+
+/* Pricing Table */
+
+
+.pricing-item {
+	background-color: #fff;
+	box-shadow: 4px 5px 30px 0 rgba(64, 87, 191, 0.4);
+	padding: 76px 75px;
+	border-radius: 5px;
+}
+
+.pricing-item h1 {
+	font-weight: 600;
+}
+.pricing-item h5 {
+	color: #767676;
+	font-weight: 200;
+	font-size: 21px;
+}
+.pricing-item ul{}
+.pricing-item ul li {
+	margin-top: 45px;
+	font-size: 20px;
+	font-weight: 500;
+	list-style: none;
+	color: #767676;
+}
+.pricing-item ul li span {
+	color: #6278df;
+	font-size: 24px;
+	margin-right: 13px;
+}
+
+.pricing-item-button {
+	margin-top: 3px;
+	margin-bottom: 14px;
+}
+.pricing-item-button a {
+	padding: 17px 27px;
+	box-shadow: 4px 5px 30px 0 rgba(64, 87, 191, 0.4);
+	color: #6278df;
+}
+ 
+
+/* Testimonial Css */
+
+.col {
+	position: relative;
+}
+.col span {
+	position: absolute;
+	left: 49%;
+	transform: translateX(-50%);
+	top: 59px;
+	font-size: 8.5rem;
+	color: #cccccc;
+	opacity: 0.3;
+}
+.col h5 {
+	font-size: 29px;
+	font-weight: 300;
+}
+.another-info img {
+	width: 67px;
+	margin-right: -38px;
+	position: relative;
+	left: 101px;
+}
+.another-info {
+	width: 250px;
+	margin: auto;
+}
+.user-details p {
+	color: #767676;
+	margin-top: -6px;
+}
+.user-details h5 {
+	font-weight: 500;
+}
+.user-details {
+	text-align: left;
+	position: relative;
+	top: 6px;
+	left: 151px;
+}
+.col p {
+	color: #767676;
+	font-weight: 300;
+}
+
+
+
+/* About-Sction Css */
+
+.about-section{ background-color: #f7f9ff;}
+
+.col h1 {
+	font-weight: 300;
+	margin-top: 65px;
+}
+
+.rounded-circle {
+	position: absolute;
+	width: 113px;
+	top: -51px;
+	right: 174px;
+}
+.card.border-0.shadow {
+	position: relative;
+}
+.card-body {
+	margin-top: 36px;
+	margin-left: 18px;
+}
+
+/* Contact Css */
+
+
+
+
+
+
+
+.contact-form-div{
+	box-shadow: 4px 5px 30px 0 rgba(64, 87, 191, 0.2);
+}
+.form-control {
+	padding: 25px 25px;
+}
+.msg {
+	padding: 30px 21px;
+}
+.hahaha {
+	padding: 16px 26px;
+	font-weight: 600;
+	margin-top: 20px;
+}
+
+/* Footer up css */
+
+
+
+.btn.btn-outline-success.btn-lg {
+	padding: 16px 30px;
+	font-size: 20px;
+	font-weight: 600;
+}
+.img-div img {
+	width: 571px;
+
+}
+
+.img-div {
+	table-layout: ;
+	text-align: center;
+	margin: 11px;
+}
+
+
+.col.text-center {
+	margin-top: 45px;
+}
+
+
+
+/* Footer  css*/
+
+.footer-section{
+	background-color: #f7f9ff;
+}
+.footer-section p{
+	color: #000;
+}
+
+
+
+
+
+
+
+/* Responsive */
+
+
+@media (max-width:1200px) {
+	.about-text-left {
+		margin-top: -77px;
+		
+	}
+	
+	body {
+		overflow-x: hidden;
+	}
+}
+
+
+@media (max-width:992px) {
+	.row > * {
+		margin-bottom: 11px;
+	}
+	.about-text-left h1 {
+		font-size: 27px;
+		line-height: 50px;
+		margin-top: 66px;
+	}
+	.about-text-left .lead {
+		line-height: 28px;
+		font-size: 22px;
+	}
+}
+
+
